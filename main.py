@@ -63,7 +63,7 @@ for sheet_name, df in dfs.items():
             #continue
 
         # Assign the values to the dict
-        newdf["Name"].append(df.iloc[i,0])
+        newdf["Igrac"].append(df.iloc[i,0])
         newdf["Odigrane"].append(played)
         newdf["Pobeda"].append(victory)
         newdf["Poraz"].append(defeat)
