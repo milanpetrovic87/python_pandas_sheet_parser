@@ -2,12 +2,12 @@ import pandas as pd
 import copy
 import openpyxl
 
-# google sheet from which tabela is downloaded https://docs.google.com/spreadsheets/d/1HBOfNbwByrxFHhqKOJdDzycWjjmSYfPSDk-HEOt4k0A/edit#gid=1173186980
+# https://docs.google.com/spreadsheets/d/1mrlE1Cz1yLwVSan3bxUwQs1GocnuWm371FdkCQVDHyg/edit?usp=sharing
 
 dfs = {}
 
 
-googleSheetId = '1JbyffvXlUz-NQfv3GmxJv0z565-cCjXUwMZASPXNKIU'
+googleSheetId = '1mrlE1Cz1yLwVSan3bxUwQs1GocnuWm371FdkCQVDHyg'
 for worksheetName in ["Grupa1","Grupa2","Grupa3","Grupa4"]:
 
     URL = 'https://docs.google.com/spreadsheets/d/{0}/gviz/tq?tqx=out:csv&sheet={1}'.format(
