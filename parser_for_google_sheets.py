@@ -14,7 +14,7 @@ for worksheetName in ["Grupa1","Grupa2","Grupa3","Grupa4"]:
         worksheetName
     )
 
-    df = pd.read_csv(URL, on_bad_lines='skip',usecols = list(range(1,8)) + list(range(1,8)))
+    df = pd.read_csv(URL, on_bad_lines='skip')
     df = df.fillna('')
     dfs[worksheetName] = df
 
